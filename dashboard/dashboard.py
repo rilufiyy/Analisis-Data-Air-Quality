@@ -6,7 +6,7 @@ import plotly.graph_objects as go  # Importing graph_objects for custom heatmap
 # Load the data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("dasboard/air_quality_clean.csv")
+    df = pd.read_csv("dashboard/air_quality_clean.csv")
     df['datetime'] = pd.to_datetime(df[['year', 'month', 'day', 'hour']])
     df['season'] = pd.cut(df['month'], bins=[0, 3, 6, 9, 12], labels=['Winter', 'Spring', 'Summer', 'Autumn'])
     df['day_name'] = df['datetime'].dt.day_name()
