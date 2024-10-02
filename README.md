@@ -35,12 +35,12 @@ Proyek ini adalah dashboard interaktif yang dikembangkan menggunakan **Streamlit
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/bike-sharing-analysis.git
+    git clone https://github.com/yourusername/Analisis-Data-Air-Quality.git
     ```
 
 2. **Navigate to the project directory**:
     ```bash
-    cd bike-sharing-analysis
+    cd Analisis-Data-Air-Quality
     ```
 
 3. **Create a virtual environment**:
